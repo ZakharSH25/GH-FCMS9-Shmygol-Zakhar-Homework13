@@ -1,0 +1,79 @@
+.main-block {
+max-width: 1200px;
+
+  .second-block {
+  display: flex;
+
+    .block-link {
+    display: block;
+    border: 1px solid gray;
+    width: 200px;
+    height: 35px;
+    border-radius: 20px;
+    text-align: center;
+    color: gray;
+    text-decoration: none;
+    }
+  }
+}
+.login-block {
+  max-width: 1200px;
+
+  .login-input {
+    border-radius: 5px;
+    border: 1px solid grey;
+    width: 200px;
+    margin-right: 20px;
+  }
+  .login-submit {
+    border-radius: 5px;
+    border: 1px solid grey;
+    width: 150px;
+    background-color: white;
+    color: gray;
+  }
+  .login-button {
+    display: block;
+    border-radius: 5px;
+    border: 1px solid grey;
+    width: 150px;
+    height: 30px;
+    color: grey;
+    text-decoration: none;
+    text-align: center;
+
+
+  }
+}
+.registration-block {
+  max-width: 1200px;
+
+  .registration-form {
+    display: flex;
+    flex-direction: column;
+
+    .registration-input {
+      border-radius: 5px;
+      border: 1px solid grey;
+      width: 200px;
+      margin-top: 20px;
+    }
+    .registration-submit {
+      border-radius: 5px;
+      border: 1px solid grey;
+      width: 150px;
+      background-color: white;
+      color: gray;
+    }
+  }
+  .registration-button {
+    display: block;
+    border-radius: 5px;
+    border: 1px solid grey;
+    width: 150px;
+    height: 30px;
+    color: grey;
+    text-decoration: none;
+    text-align: center;
+  }
+} 
